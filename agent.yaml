@@ -1,13 +1,13 @@
 agent:
-  id: "{{AGENT_ID}}"
-  team: "{{TEAM_NAME}}"
+  id: "customer-support"
+  team: "support"
   runtime: aks
-  interaction_model: "{{INTERACTION_MODEL}}"
-  guardrail_profile: "{{GUARDRAIL_PROFILE}}"
+  interaction_model: "standalone"
+  guardrail_profile: "strict"
 
 identity:
-  sp_client_id: "{{SP_CLIENT_ID}}"
-  keyvault_url: "{{KEYVAULT_URL}}"
+  sp_client_id: "74f384e0-005a-404b-bedf-184dfce538e7"
+  keyvault_url: "https://kv-shop-poc.vault.azure.net/"
 
 tools: []
 
